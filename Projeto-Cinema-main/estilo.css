@@ -1,0 +1,25 @@
+.hlista ul li {
+    display: inline-block;
+}
+
+.filmes td {
+    padding-left: 10px;
+    padding-right: 40px;
+}
+
+header {
+    background-color: darkred;
+}
+
+.centro {
+    text-align: center;
+}
+
+body {
+    margin: 0%;
+}
+
+iframe {
+    width: 560px;
+    height: 315px;
+}
