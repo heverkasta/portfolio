@@ -9,9 +9,6 @@ jobs:
   deploy:
     runs-on: ubuntu-latest
 
-    permissions:
-      id-token: write
-      contents: read
 
     steps:
       - name: Checa o repositorio
@@ -26,4 +23,4 @@ jobs:
           path: .
 
       - name: Publica no GitPages
-        uses: actions/deploy-pages@v2
+        uses: actions/deploy-pages@v1
